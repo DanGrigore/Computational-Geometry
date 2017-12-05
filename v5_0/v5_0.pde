@@ -94,28 +94,12 @@ void setup() {
   inputData = new ControlP5(this);
   inputData.addBang("Run").setPosition(10, 10).setSize(100, 20);
   textSize(12);
-  
-  //inputData.addTextfield("ox").setPosition(10, 70).setSize(25, 20).setAutoClear(false);
-  //inputData.addTextfield("oy").setPosition(35, 70).setSize(25, 20).setAutoClear(false);
-  //inputData.addBang("RUN").setPosition(60, 70).setSize(50, 20);
-  
 }
 
 void Run() {
   numberOfPoints = n;
 
 }
-
-//void RUN() {
-//  temp = inputData.get(Textfield.class, "ox").getText();
-
-//  temp2 = inputData.get(Textfield.class, "oy").getText();
-
-//  Point newOne = new Point(Integer.parseInt(temp),Integer.parseInt(temp2));
-//  fill(255,255,0);
-//  ellipse(newOne.x, newOne.y, 5, 5);
-//  text("("+newOne.x+","+newOne.y+")",newOne.x,newOne.y);
-//}
 
 void draw() {
   
